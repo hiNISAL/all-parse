@@ -2,7 +2,7 @@
 
 🇨🇳[中文](https://github.com/hiNISAL/all-parse#all-parse) | [ENGLISH](https://github.com/hiNISAL/all-parse/blob/main/readme-en.md)
 
-深遍历对象，将所有JSON字符串转换成JS对象。
+深遍历对象和数组，将所有JSON字符串转换成JS对象。
 
 ```js
 const object = {
@@ -40,11 +40,13 @@ npm i all-parse -S
 // ESM
 import parse from 'all-parse';
 const obj = parse(object);
+const obj = parse(array);
 
 // CommonJS
 const parse = require('all-parse').default;
 
 const obj = parse(object);
+const obj = parse(array);
 ```
 
 ## 自定义parser
