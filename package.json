@@ -1,0 +1,29 @@
+{
+  "name": "all-parse",
+  "version": "0.0.1",
+  "description": "Parse all properties of an object into a JS object from a JSON string.",
+  "main": "./dist/all-parse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiNISAL/all-parse.git"
+  },
+  "keywords": [
+    "json",
+    "object",
+    "json parse"
+  ],
+  "author": "ARAM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hiNISAL/all-parse/issues"
+  },
+  "homepage": "https://github.com/hiNISAL/all-parse#readme",
+  "devDependencies": {
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  }
+}

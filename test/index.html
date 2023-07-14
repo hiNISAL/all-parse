@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script src="../dist/all-parse.js"></script>
+  <script>
+    const obj1 = [{}, ];
+    const obj2 = {
+      a: '{}',
+      b: {
+        c: '[{"x": 1}]',
+      },
+    };
+
+    const cloneDeep = function(obj) {
+      return JSON.parse(JSON.stringify(obj));
+    };
+
+    console.log(allParse.default(cloneDeep(obj1)));
+    console.log(allParse.default(cloneDeep(obj2)));
+  </script>
+</body>
+</html>
