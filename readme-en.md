@@ -1,6 +1,6 @@
 # all-parse
 
-🇨🇳[中文](https://github.com/hiNISAL/never-write#never-wirte) | [ENGLISH](https://github.com/hiNISAL/never-write/blob/main/readme-en.md)
+🇨🇳[中文](https://github.com/hiNISAL/all-parse#all-parse) | [ENGLISH](https://github.com/hiNISAL/all-parse/blob/main/readme-en.md)
 
 Deep traverse the object and array, converting all JSON strings into JS objects.
 
