@@ -1,6 +1,6 @@
 {
   "name": "all-parse",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Parse all properties of an object into a JS object from a JSON string.",
   "main": "./dist/all-parse.js",
   "scripts": {
